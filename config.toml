@@ -1,0 +1,42 @@
+baseURL = 'https://Allen-spaceeng.github.io/' 
+languageCode = 'en-us'
+title = 'My Personal Blog'
+theme = 'PaperMod'
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+  author = "Aline UWIMANA"
+  description = "My personal blog for Assignment2"
+  ShowBreadCrumbs = false
+  ShowReadingTime = false
+  ShowPostNavLinks = true
+  ShowShareButtons = false
+  ShowCodeCopyButtons = true
+  showtoc = false
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "assignments"
+    name = "Assignments"
+    url = "/assignments/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 4

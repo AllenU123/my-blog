@@ -1,0 +1,13 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+baseURL = 'https://<Allen-spaceeng>.github.io/'
+languageCode = 'en-us'
+title = 'My Personal Blog'
+theme = 'PaperMod'
+
+[params]
+  author = "Aline UWIMANA"
+  description = "My personal blog for Assignment2"
+hugo new posts/assignment2-report.md
+ 
