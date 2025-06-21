@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on My Personal Blog</title>
+    <link>//localhost:1313/posts/</link>
+    <description>Recent content in Posts on My Personal Blog</description>
+    <generator>Hugo -- 0.147.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Assignment 2 Report</title>
+      <link>//localhost:1313/posts/assignment2-report/</link>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/assignment2-report/</guid>
+      <description>&lt;h1 id=&#34;assignment-2-static-personal-blog-website&#34;&gt;Assignment 2: Static Personal Blog Website&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Author&lt;/strong&gt;: Aline UWIMANA&lt;br&gt;
+&lt;strong&gt;Date&lt;/strong&gt;: April 2025&lt;br&gt;
+&lt;strong&gt;Project Repository&lt;/strong&gt;: [GitHub Repo Link]&lt;br&gt;
+&lt;strong&gt;Website Link&lt;/strong&gt;: &lt;a href=&#34;https://AllenU123.github.io&#34;&gt;https://AllenU123.github.io&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-tools-and-framework-chosen&#34;&gt;🛠️ Tools and Framework Chosen&lt;/h2&gt;
+&lt;p&gt;For this assignment, I selected &lt;strong&gt;Hugo&lt;/strong&gt;, a fast and flexible static site generator written in Go. I preferred Hugo over Sphinx because:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It supports beautiful and customizable themes like PaperMod.&lt;/li&gt;
+&lt;li&gt;Markdown-based content management is intuitive.&lt;/li&gt;
+&lt;li&gt;Deployment to GitHub Pages is well-documented and straightforward.&lt;/li&gt;
+&lt;li&gt;It allows me to easily organize content, blog posts, and navigation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;-website-setup-and-deployment-process&#34;&gt;🔧 Website Setup and Deployment Process&lt;/h2&gt;
+&lt;h3 id=&#34;step-1-install-hugo&#34;&gt;Step 1: Install Hugo&lt;/h3&gt;
+&lt;p&gt;Installed Hugo on Ubuntu via:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

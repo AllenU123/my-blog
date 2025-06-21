@@ -1,0 +1,67 @@
+{{ define "main" }}
+<header class="page-header">
+  <h1>Assignments</h1>
+</header>
+
+<div class="assignments-container">
+  <div class="assignment-card">
+    <a href="{{ "assignments/assignment1.pdf" | relURL }}" target="_blank">📄 Assignment 1</a>
+  </div>
+  <div class="assignment-card">
+    <a href="{{ "assignments/assignment2.pdf" | relURL }}" target="_blank">📄 Assignment 2</a>
+  </div>
+  <div class="assignment-card">
+    <a href="{{ "assignments/assignment3.pdf" | relURL }}" target="_blank">📄 Assignment 3</a>
+  </div>
+  <div class="assignment-card">
+    <a href="{{ "assignments/assignment4.pdf" | relURL }}" target="_blank">📄 Assignment 4</a>
+  </div>
+  <div class="assignment-card">
+    <a href="{{ "assignments/finaluseri.zip" | relURL }}" target="_blank">📄 Flood Susceptibility Mapping Tool Application Download source codes </a>
+  </div>
+</div>
+
+<style>
+  body {
+    background-color: #cbd5e1;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .assignments-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 30px;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+
+  .assignment-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    color: #004d40;
+  }
+
+  .assignment-card:nth-child(1) { background-color: #b2dfdb; }
+  .assignment-card:nth-child(2) { background-color: #dcedc8; }
+  .assignment-card:nth-child(3) { background-color: #bbdefb; }
+  .assignment-card:nth-child(4) { background-color: #ffe0b2; }
+
+  .assignment-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 24px rgba(0,0,0,0.15);
+  }
+
+  .assignment-card a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #004d40;
+  }
+</style>
+{{ end }}

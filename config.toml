@@ -1,4 +1,4 @@
-baseURL = 'https://Allen-spaceeng.github.io/' 
+baseURL = 'example.com' 
 languageCode = 'en-us'
 title = 'My Personal Blog'
 theme = 'PaperMod'

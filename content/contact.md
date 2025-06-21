@@ -1,5 +1,7 @@
 ---
 title: "Contact"
+layout: "contact"
+url: "/contact/"
 ---
 
 ## Get in Touch
