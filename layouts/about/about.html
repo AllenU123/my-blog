@@ -182,7 +182,7 @@
 <header class="header">
   <nav class="nav">
       <div class="logo">
-          <a href="//localhost:1313/" accesskey="h" title="My Personal Blog (Alt + H)">My Personal Blog</a>
+          <a href="{{ "/" | relURL }}" accesskey="h" title="My Personal Blog (Alt + H)">My Personal Blog</a>
           <div class="logo-switches">
               <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                   <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -207,8 +207,8 @@
           </div>
       </div>
      <ul id="menu">
-  <li><a href="{{ "/" | relURL }}" title="Home"><span class="active">Home</span></a></li>
-  <li><a href="{{ "about/" | relURL }}" title="About"><span>About</span></a></li>
+  <li><a href="{{ "/" | relURL }}" title="Home"><span>Home</span></a></li>
+  <li><a href="{{ "about/" | relURL }}" title="About"><span class="active">About</span></a></li>
   <li><a href="{{ "assignments/" | relURL }}" title="Assignments"><span>Assignments</span></a></li>
   <li><a href="{{ "contact/" | relURL }}" title="Contact"><span>Contact</span></a></li>
 </ul>
