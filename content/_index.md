@@ -1,5 +1,7 @@
 ---
 title: "Home"
+layout: "index"
+url: "/index/"
 ---
 
 <div style="display: flex; align-items: center;">
