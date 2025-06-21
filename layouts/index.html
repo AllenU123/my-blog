@@ -12,7 +12,8 @@
 <meta name="description" content="My personal blog for Assignment2">
 <meta name="author" content="Aline UWIMANA">
 <link rel="canonical" href="//localhost:1313/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" integrity="sha256-IhHKMWS&#43;eDACT2qtKzouUghDpk&#43;PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="{{ "assets/css/stylesheet.2211ca3164be7830024f6aad2b3a2e520843a64f8f048445c3401c1249aa051d.css" | relURL }}" integrity="sha256-IhHKMWS+eDACT2qtKzouUghDpk+PBIRFw0AcEkmqBR0=" rel="preload stylesheet" as="style">
+
 <link rel="icon" href="//localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/favicon-32x32.png">
@@ -100,28 +101,12 @@
                 </button>
             </div>
         </div>
-        <ul id="menu">
-            <li>
-                <a href="//localhost:1313/" title="Home">
-                    <span class="active">Home</span>
-                </a>
-            </li>
-            <li>
-                <a href="//localhost:1313/about/" title="About">
-                    <span>About</span>
-                </a>
-            </li>
-            <li>
-                <a href="//localhost:1313/assignments/" title="Assignments">
-                    <span>Assignments</span>
-                </a>
-            </li>
-            <li>
-                <a href="//localhost:1313/contact/" title="Contact">
-                    <span>Contact</span>
-                </a>
-            </li>
-        </ul>
+       <ul id="menu">
+    <li><a href="{{ "/" | relURL }}" title="Home"><span class="active">Home</span></a></li>
+    <li><a href="{{ "about/" | relURL }}" title="About"><span>About</span></a></li>
+    <li><a href="{{ "assignments/" | relURL }}" title="Assignments"><span>Assignments</span></a></li>
+    <li><a href="{{ "contact/" | relURL }}" title="Contact"><span>Contact</span></a></li>
+</ul>
     </nav>
 </header>
 <main class="main">
